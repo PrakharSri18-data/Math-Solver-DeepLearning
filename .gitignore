@@ -28,6 +28,7 @@ ENV/
 # ===============================
 
 dataset/generated/
+dataset/fonts/
 
 # Large files
 
