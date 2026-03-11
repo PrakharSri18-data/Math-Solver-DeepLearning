@@ -1,54 +1,45 @@
 # ===============================
 
-# Python cache
+# Python Cache
 
 # ===============================
 
 **pycache**/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
 # ===============================
 
-# Virtual environments
+# Virtual Environments
 
 # ===============================
 
 venv/
+.env/
+.env
 .venv/
 env/
 ENV/
 
 # ===============================
 
-# Dataset files (Large)
+# Dataset (generated locally)
 
 # ===============================
 
-dataset/
-data/
-datasets/
+dataset/generated/
+
+# Large files
 
 *.zip
-*.gz
 *.tar
 *.tar.gz
 *.7z
-
-# MNIST raw files
-
-*.ubyte
-*.idx1-ubyte
-*.idx3-ubyte
-
-# Extracted images
-
-extracted_images/
+*.gz
 
 # ===============================
 
-# Model weights
+# Model Weights
 
 # ===============================
 
@@ -57,9 +48,7 @@ extracted_images/
 *.pt
 *.pth
 *.ckpt
-
-models/
-checkpoints/
+*.onnx
 
 # ===============================
 
@@ -72,7 +61,7 @@ logs/
 
 # ===============================
 
-# Streamlit cache
+# Streamlit
 
 # ===============================
 
@@ -80,7 +69,7 @@ logs/
 
 # ===============================
 
-# Jupyter notebooks
+# Jupyter
 
 # ===============================
 
@@ -88,7 +77,7 @@ logs/
 
 # ===============================
 
-# IDE files
+# IDE Settings
 
 # ===============================
 
@@ -97,7 +86,7 @@ logs/
 
 # ===============================
 
-# OS files
+# OS Files
 
 # ===============================
 
@@ -106,7 +95,7 @@ Thumbs.db
 
 # ===============================
 
-# Build files
+# Build Files
 
 # ===============================
 
